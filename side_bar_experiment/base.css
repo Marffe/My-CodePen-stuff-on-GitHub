@@ -1,0 +1,142 @@
+/* *General* */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+/* *General* */
+
+/* *Container* */
+.container {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: auto;
+    width: 100%;
+    padding: 40px 256px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 239, 218);
+}
+.container h1 {font-size: 48px;}
+.container h1, h2, h3, h4 {font-style: italic; margin: 16px 0;}
+.wiki_source {
+    margin-bottom: 16px;
+    font-style: italic;
+    font-size: 18px;
+}
+.wiki_source a {
+    font-style: italic;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+}
+.wiki_source a:hover {color: blueviolet;}
+/* *Container* */
+
+/* *Menu BTN* */
+.menu {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 1%;
+    left: 1%;
+}
+.menu a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.menu img {
+    height: 24px;
+    width: auto;
+}
+.open {
+    position: absolute;
+}
+/* *Menu BTN* */
+
+
+
+.close {
+    position: absolute;
+    top: 1%;
+    left: -15%;
+    transition: 0.5s;
+}
+
+.side_menu {
+    top: 0%;
+    left: -15%;
+    position: fixed;
+    height: 100vh;
+    width: 160px;
+    background: rgb(39, 57, 93);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    z-index: 2;
+    transition: 0.5s
+}
+
+.side_menu ul {
+    padding: 8px 0 8px 16px;
+    font-size: 20px;
+}
+
+.side_menu li {
+    list-style: none;
+}
+
+.side_menu img {
+    height: 24px;
+    width: auto;
+}
+
+.side_menu .close a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+#open:hover {background: rgb(128, 211, 128);}
+#btn_close:hover {background: rgb(211, 139, 128);}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {background: rgb(241, 241, 241);}
+::-webkit-scrollbar-thumb {background: rgb(136, 136, 136);}
+::-webkit-scrollbar-thumb:hover {background: rgb(85, 85, 85);}
+
+.close.active_menu {
+    left: 6%;
+}
+
+.side_menu.active_menu {
+    left: 0%;
+}
+
+.static {
+    overflow: hidden;
+}
