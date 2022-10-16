@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.root {
+    /* *Text */
+    --p_font_size: 16px;
+    --p_font_color: rgb(51, 51, 51);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(250, 235, 215);
+}
+.search_box {
+    height: 48px;
+    width: 48px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+.search_o {
+    height: 48px;
+    min-width: 48px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.seacrh_c {
+    height: 48px;
+    min-width: 48px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    scale: 0;
+    transition: 0.5s;
+}
+.search_o img {width: 32px; height: 32px;}
+.seacrh_c img {width: 32px; height: 32px;}
+.opened {width: 480px; height: 48px;}
+.opened .seacrh_c {scale: 1;}
+
+.search_input {
+    height: 48px;
+    width: 384px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_input input {
+    height: 48px;
+    width: 384px;
+    border: none;
+    font-size: 18px;
+    padding: 24px;
+    outline: none;
+}
