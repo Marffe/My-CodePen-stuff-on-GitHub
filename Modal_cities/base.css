@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(16, 18, 26);
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    flex: 0.5;
+    height: 90%;
+    margin: 8px;
+    border-radius: 24px;
+    /* b */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.card button {
+    padding: 8px;
+    margin: 4px;
+    border: none;
+    border-radius: 24px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background: black;
+    color: white;
+}
+
+
+
+#espana {
+    background: url(/img/espana.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;}
+#brasil {
+    background: url(/img/brasil.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;}
+#argentina {
+    background: url(/img/argentina.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;}
+#usa {
+    background: url(/img/usa-texas.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;}
+
+
+.info_card {
+    height: 37%;
+    width: 35%;
+    padding: 16px;
+    border-radius: 24px;
+    background: wheat;
+    position: absolute;
+}
+
+.info_card h2 {
+    font-size: 32px;
+    margin: 0 0 18px 0;
+}
+
+.info_card p {
+    font-size: 18px;
+    margin: 0 0 18px 0;
+}
+
+.info_card button {
+    padding: 6px;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.info_card button:hover {
+    background: black;
+    color: white;
+}
