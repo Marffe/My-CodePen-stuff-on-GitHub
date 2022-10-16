@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: rgb(237, 237, 237);
+}
+
+/* Backgounds */
+#a {
+    background: url('https://images.pexels.com/photos/1308940/pexels-photo-1308940.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center;
+    background-size: cover;
+background-repeat: no-repeat;}
+#b {
+    background: url('https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center;
+    background-size: cover;
+background-repeat: no-repeat;}
+#c {
+    background: url('https://images.pexels.com/photos/670261/pexels-photo-670261.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center;
+    background-size: cover;
+background-repeat: no-repeat;}
+#d {
+    background: url('https://images.pexels.com/photos/9253/sea-city-landscape-sky.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center;
+    background-size: cover;
+background-repeat: no-repeat;}
+#e {
+    background: url('https://images.pexels.com/photos/3579433/pexels-photo-3579433.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center;
+    background-size: cover;
+background-repeat: no-repeat;}
+
+.cards_container {
+    height: 90%;
+    width: 78%;
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    height: 100%;
+    flex: 0.5;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 16px;
+    transition: flex 0.8s ease-in;
+    position: relative;
+}
+
+.card h3 {
+    position: absolute;
+    font-size: 24px;
+    bottom: 20px;
+    opacity: 0;
+    transition: 0.4s 1s;
+}
+
+.active {
+    flex: 5;
+}
+
+.active h3 {
+    opacity: 1;
+}
