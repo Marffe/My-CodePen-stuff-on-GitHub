@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;1,400&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(120, 95, 145);
+}
+
+.container {
+    height: 90%;
+    width: 70%;
+    min-width: 320px;
+    background: rgb(212, 212, 212);
+    border-radius: 0 0 0 15%;
+    box-shadow: 8px 8px 12px 5px rgba(19, 19, 19, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container button {
+    margin: 10px 0;
+    padding: 8px;
+    font-size: 1.3em;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.container button:hover {
+    background: rgb(137, 229, 129);
+}
+
+.container h1 {font-size: 3.5em; text-align: center;}
+.container p {font-size: 2em; font-weight: 400; font-style: italic;}
+#credits {font-size: 0.8em; font-weight: 300; font-style: normal;}
+
+.img_box {
+    background: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 60%;
+    min-height: auto;
+    width: 60%;
+    min-width: 280px;
+    overflow: hidden;
+}
+
