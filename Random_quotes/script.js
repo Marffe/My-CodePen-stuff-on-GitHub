@@ -2,8 +2,8 @@ const quotes_array = ["The only true wisdom is in knowing you know nothing.", "T
 const btn = document.querySelector("button")
 const p_quotes = document.getElementById("quotes_display")
 
-btn.onclick = abc
-
-function abc(quotes_array){
-	p_quotes.innerText = quotes_array[Math.floor(Math.random() * quotes_array.length)]
+btn.onclick = () => {
+	let selected_quote = `"` + quotes_array[Math.floor(Math.random() * quotes_array.length)] + `"`
+	p_quotes.innerText = selected_quote
+	btn.innerText = "See another Quote"
 }
