@@ -49,22 +49,22 @@ body {
 
 
 
-#espana {
+#bg_espana {
     background: url(/img/espana.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;}
-#brasil {
+#bg_brasil {
     background: url(/img/brasil.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;}
-#argentina {
+#bg_argentina {
     background: url(/img/argentina.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;}
-#usa {
+#bg_usa {
     background: url(/img/usa-texas.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -100,4 +100,9 @@ body {
 .info_card button:hover {
     background: black;
     color: white;
+}
+
+.hide {
+    position: absolute;
+    top: -100%;
 }
