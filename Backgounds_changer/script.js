@@ -15,6 +15,6 @@ function randomize_rgb(min, max) {
 }
 
 rgb_btn.onclick = () => {
-    randomize_rgb(10, 255)
+    randomize_rgb(55, 255)
     document.getElementById("rgb_bg").style.background =  `rgb(${rgb_red}, ${rgb_green}, ${rgb_blue})`
 }
