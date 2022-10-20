@@ -1,45 +1,109 @@
 body {
-    height: 100vh;
-    margin: 0;
-    display: grid;
-    place-items: center;
-    background: #2196f3;
-    font: 100%/1.4 system-ui, sans-serif;
-    line-height: 1.4;
-  }
-  
-  h2 {
-    line-height: 1.24;
-    margin: 0 0 1rem 0;
-  }
-  
-  .area {
-    background: white;
-    padding: 2rem;
-    border-radius: 8px;
-    width: 300px;
-    box-shadow: 0 0.66rem 2.4rem #0d47a1;
-    position: relative;
-    overflow: auto;
-  }
-  
-  .menu {
-    position: absolute;
-    top: 0.5rem;
-    right: 0.5rem;
-  }
-  .menu > button {
-    border: 0;
-    background: none;
-  }
-  .menu-icon-svg {
-    width: 20px;
-  }
-  .menu-list {
-    list-style: none;
-    margin: 0;
-    position: absolute;
-    top: 0;
-    left: 100%;
-  }
-  
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(45deg, rgb(82, 47, 128), rgb(57, 108, 175));
+  font: 100%/1.4 system-ui, sans-serif;
+  line-height: 1.2;
+}
+
+h2 {line-height: 1;}
+
+.area {
+  background: rgb(241, 241, 241);
+  padding: 2rem;
+  border-radius: 8px;
+  height: 88%;
+  width: 320px;
+  box-shadow: 0 0.66rem 2.4rem rgb(61, 41, 86);
+  position: relative;
+  word-wrap: break-word;
+  overflow: auto;
+}
+
+.area a {
+  color: rgb(51, 51, 51);
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.area a:hover {
+  color: rgb(82, 134, 39);
+}
+
+.img_center {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img_center img {
+  width: 80%;
+}
+
+.menu {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu > button {
+  height: 32px;
+  width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 15%;
+  background: none;
+  cursor: pointer;
+}
+
+.menu > button:hover {
+  background: rgb(148, 202, 104);
+}
+
+.menu-icon-svg {
+  width: 20px;
+}
+.menu-list {
+  background: white;
+  height: 32px;
+  width: 220px;
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  position: absolute;
+  top: -100px;
+  right: 1%;
+}
+
+.menu-list.show {
+  top: 0;
+}
+
+.menu ul button {
+  height: 32px;
+  width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 15%;
+  background: none;
+  cursor: pointer;
+}
+
+.menu ul button:hover {
+  background: rgb(202, 122, 104);
+}

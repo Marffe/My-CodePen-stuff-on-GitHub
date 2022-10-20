@@ -9,6 +9,19 @@
 </head>
 <body>
   <div class="area">
+    <nav aria-label="Menu" class="menu">
+      <button id="open">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>
+      </button>
+      <ul class="menu-list" id="menu_list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><button id="close">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M23 20.168l-8.185-8.187 8.185-8.174-2.832-2.807-8.182 8.179-8.176-8.179-2.81 2.81 8.186 8.196-8.186 8.184 2.81 2.81 8.203-8.192 8.18 8.192z"/></svg>
+        </button></li>
+      </ul>
+    </nav>
     <h2>I've got 99 problems and horizontal overflow is several of them.</h2>
   
     <p>They all exclaimed against such terrific ideas; and Mr. Gardiner, after general assurances of his affection for her and all her family, told her that he meant to be in London the very next day, and would assist Mr. Bennet in every endeavour for recovering Lydia.</p>
@@ -16,25 +29,16 @@
     <p>
       Reference:
       <br />
-      https://bit.ly/really_long_url_that_links_to_the_wikipedia_page_for_pride_and_prejudice
+      <a href="https://en.wikipedia.org/wiki/Pride_and_Prejudice" target="_blank">https://bit.ly/really_long_url_that_links_to_the_wikipedia_page_for_pride_and_prejudice</a>
     </p>
   
     <p>“This is a most unfortunate affair, and will probably be much talked of. But we must stem the tide of malice, and pour into the wounded bosoms of each other the balm of sisterly consolation.”</p>
+
+    <p>Icons from <a href="https://iconmonstr.com">iconmonstr</a></p>
   
-    <img src="https://assets.codepen.io/3/flourish_1.png" alt="" />
-  
-    <nav aria-label="Menu" class="menu">
-      <button>
-        <svg viewBox="0 0 448 512" width="100" class="menu-icon-svg">
-          <path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" />
-        </svg>
-      </button>
-      <ul class="menu-list">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="img_center">
+      <img src="https://assets.codepen.io/3/flourish_1.png"/>
+    </div>
   </div>
       <script src="menu.js"></script>
 </body>

@@ -1,9 +1,6 @@
-const btn = document.querySelector("button")
-const menu_list = document.querySelector("ul")
-const menu = document.querySelector("nav")
+const btn_open = document.getElementById("open")
+const btn_close = document.getElementById("close")
+const menu_list = document.getElementById("menu_list")
 
-btn.onclick = () => {
-    menu_list.classList.remove("hide")
-    menu.classList.add("close")
-    btn.classList.add("close_btn")
-}
+btn_open.onclick = () => {menu_list.classList.add("show")}
+btn_close.onclick = () => {menu_list.classList.remove("show")}
