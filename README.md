@@ -2,7 +2,7 @@
 
 Welcome to my CodePen repo, here you will find all the source code, be sure to check the links to see live examples :)
 
-### Why I made this?
+## Why I made this?
 
 To display my little projects and have a nice place to put all the source code
 
@@ -12,7 +12,7 @@ To display my little projects and have a nice place to put all the source code
   - I add an list of changes list
   - Added two new pens to my profile
 
-## List of Pens
+### List of Pens
 
 1. [OT SearchBar Copy](https://codepen.io/marffe/details/JjvOJWM)
 2. [Expanding the City Cards](https://codepen.io/marffe/pen/qBYpBOj)
