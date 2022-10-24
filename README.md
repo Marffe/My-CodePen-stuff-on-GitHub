@@ -1,6 +1,16 @@
 # This is where I put the code of my [CodePen Works](https://codepen.io/marffe)
 
-Welcome to my CodePen repo, here you will find all the source code
+Welcome to my CodePen repo, here you will find all the source code, be sure to check the links to see live examples :)
+
+### Why I made this?
+
+To display my little projects and have a nice place to put all the source code
+
+### List  of changes
+
+- October 24, 2022
+  - I add an list of changes list
+  - Added two new pens to my profile
 
 ## List of Pens
 
@@ -14,7 +24,7 @@ Welcome to my CodePen repo, here you will find all the source code
 8. [Random image Picker](https://codepen.io/marffe/pen/ZEoZjQm)
 9. [Random Quotes](https://codepen.io/marffe/pen/zYjQaER)
 10. [Random HEX BG with value](https://codepen.io/marffe/pen/vYjqOWb)
-11. []()
-12. []()
+11. [#CodePenChallenge - Oh No, Overflow!](https://codepen.io/marffe/pen/oNdrOzL)
+12. [Hidden menu](https://codepen.io/marffe/pen/dyKbjma)
 13. []()
 14. []()
