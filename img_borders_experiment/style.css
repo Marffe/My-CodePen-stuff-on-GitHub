@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container h1 {padding: 8px;}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.group {
+    height: 550px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    padding: 8px;
+    background: rgb(205, 112, 112);
+}
+
+.group:nth-of-type(2) {
+    background: rgb(77, 148, 115);
+}
+
+/* Group 1 Images */
+
+.group img:nth-child(1) {
+    width: 400px;
+    --s_img1: 8px; /* control the size */
+    padding: 3px;
+    border: calc(4 * var(--s_img1)) solid #0000;
+    outline: 1px solid #000;
+    outline-offset: calc(-3 * var(--s_img1));
+    background: conic-gradient(from 90deg at 1px 1px, rgba(0, 0, 0, 0) 25%, #000 0);
+}
+
+.group img:nth-child(2) {
+    width: 300px;
+    --s_img1: 3px; /* control the size */
+    padding: 9px;
+    border: calc(1 * var(--s_img1)) solid rgba(0, 0, 0, 0);
+    outline-offset: calc(-3 * var(--s_img1));
+    background: conic-gradient(from 90deg at 6px 4px, rgba(0, 0, 0, 0) 25%, rgb(184, 165, 98));
+}
+
+/* Group 1 Images */
