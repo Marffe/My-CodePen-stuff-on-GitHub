@@ -12,6 +12,11 @@ To display my little projects and have a nice place to put all the source code
   - I add an list of changes list
   - Added two new pens to my profile
 
+- Octuber 25, 2022
+  - Added a new Pen
+  - A new folder with a WIP project
+  - Extra space for next projects
+
 ### List of Pens
 
 1. [OT SearchBar Copy](https://codepen.io/marffe/details/JjvOJWM)
@@ -26,5 +31,12 @@ To display my little projects and have a nice place to put all the source code
 10. [Random HEX BG with value](https://codepen.io/marffe/pen/vYjqOWb)
 11. [#CodePenChallenge - Oh No, Overflow!](https://codepen.io/marffe/pen/oNdrOzL)
 12. [Hidden menu](https://codepen.io/marffe/pen/dyKbjma)
-13. []()
+13. [Date of Birth](https://codepen.io/marffe/pen/oNyNVGd)
 14. []()
+15. []()
+16. []()
+17. []()
+18. []()
+19. []()
+20. []()
+21. []()
